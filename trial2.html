@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var cat = prompt("Please enter your cat marks");
+        var Exam = prompt("Please enter your exam marks");
+        var total = parseInt(cat) + parseInt(Exam);
+        if (total >= 40){
+            var status = "pass";
+        }
+            else if(total < 40){
+                var status = "failed";
+
+            }
+            document.write("total is" + total)
+            document.write("<br/>");
+            document.write("the student has " + status )      
+    </script>
+</body> 
+</html>
