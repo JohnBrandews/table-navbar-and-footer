@@ -1,26 +1,12 @@
  table{
     
-    /* border: 1px solid red; */
     border-collapse: collapse;
     /* place-items: center; */
     margin: 0 auto;
     place-content: center;
-    /* font-size: 10; */
-    /* flex-direction:  column;
-    display: flex; 
-    align-items: center;
-    justify-content: center; */
- }
-/* table { */
-    /* padding: 30px; */
-    /* gap: 50px; */
-    /* margin: 6px; */
-/* } */
-/* tbody{ */
-    /* padding: 12px; */
-    /* border: 2px solid blue; */
     
-/* } */
+ }
+ 
 th, td {
     margin: 3px; 
 /* text-align: right; */
@@ -35,7 +21,6 @@ gap: 10px;
 }
 th{
     padding-left: 3px;
-    /* border: 1px solid blue; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
+
 
 }
